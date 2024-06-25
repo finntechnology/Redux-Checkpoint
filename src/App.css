@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main--div::before {
+  content: "";
+  background-image: url(https://clipart-library.com/new_gallery/10-109776_transparent-black-background-png-semi-transparent-background-png.png);
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0.3;
+}
